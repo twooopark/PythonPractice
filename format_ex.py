@@ -2,7 +2,7 @@
 # 문자열 서식
 
 # 서식 문자
-...
+'''
 %s 문자열 (string)
 %c 문자 1개 (character)
 %d 정수 (integer)
@@ -10,8 +10,7 @@
 %o 8진수
 %x 16진수
 %% Literal %
-...
-
+'''
 
 formay = "I have %d apples"
 print(format % 10)
